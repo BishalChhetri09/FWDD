@@ -1,0 +1,86 @@
+/* Body and container */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('bg.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Top Circles */
+.box {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.top-circles {
+    display: flex;
+    gap: 20px;
+}
+
+.circle {
+    width: 900px;
+    height: 180px;
+    border-radius: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.circle.yellow { background-color: #ffef99; }
+
+
+/* Menu Bar */
+
+.menu-bar {
+    display: flex;
+    width: 900px;
+    height: 50px;
+    background-color: #ffffcc;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Content Section */
+.content {
+    width: 900px;
+    height: 180px;
+    border-radius: 0%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.image.blue { background-color: #1045af; }
+.image.green { background-color: #12d540; }
+
+.image {
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+      
+}

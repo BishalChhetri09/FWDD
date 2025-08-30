@@ -1,0 +1,57 @@
+/* Remove expanding hover effect */
+#resizable {
+  margin-bottom: 100px;
+}
+
+#resizable div {
+  padding: 10px;
+  height: auto;
+  width: 300px;
+  background-color: #8ED2C9;
+}
+
+/* Dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;      /* directly below the parent */
+  left: 0;        /* align to the left edge */
+  background-color: #dc1616;
+  min-width: 100%; /* same width as parent */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* style the list items */
+.dropdown-content ul li {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: hsla(178, 90%, 54%, 0.944);   /* default item background */
+}
+
+.dropdown-content ul li:hover {
+  background-color: #895aff;   /* hover color */
+  color: #fff;                 /* optional: make text white */
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #eee;
+}
