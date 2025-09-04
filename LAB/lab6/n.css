@@ -1,6 +1,8 @@
 /* Remove expanding hover effect */
 #resizable {
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 #resizable div {
@@ -22,7 +24,6 @@
   top: 100%;      /* directly below the parent */
   left: 0;        /* align to the left edge */
   background-color: #dc1616;
-  min-width: 100%; /* same width as parent */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
