@@ -2,7 +2,7 @@ body {
     background: url('background.png') no-repeat center center fixed;
     background-size: cover;
      animation-name: movebackground;
-     animation-duration: 10s;
+     animation-duration: 15s;
      animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -26,24 +26,16 @@ body {
     top: 200px;
     left: 350px;
     animation-name: moveSun;
-    animation-duration: 10s;
-    animation-timing-function: linear;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    
 }
 @keyframes moveSun {
-  0% {
-    top: 200px;
-    left: 0px;
+  from {
+    transform: rotate(0deg) ;
   }
-  50% {
-    top: 100px;
-    left: 50%;
-    
-  }
-  100% {
-    top: 200px;
-    left: 100%;
-   
+  to {
+    transform: rotate(360deg);
   }
 }
 .road {
@@ -77,7 +69,7 @@ body {
     bottom: 40px;
     left: 0;
     animation-name: moveCar;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
